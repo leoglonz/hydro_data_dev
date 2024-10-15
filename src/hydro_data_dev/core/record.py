@@ -42,7 +42,8 @@ class _metadata:
 
 
 class Record(BaseModel):
-    """A record containing information about a hydrological dataset"""
+    """A record containing information about a hydrological dataset
+    """
 
     meta: _metadata
     start_time: datetime
